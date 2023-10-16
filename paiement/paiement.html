@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="paiement.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Paiement</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="mb-3 fixed-top">
+        <div class="container-fluid d-flex justify-content-between align-content-center px-5">
+            <div class="navBurger headIcon">
+                <i class="fa-solid hamburger fa-bars"></i>
+            </div>
+    
+            <div class="navigation mobile-menu">
+                <div class="navImg">
+                    <a href="../accueil/accueil1.html"><img src="../public/images/logo/logo.png" alt=""></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="../accueil/accueil1.html">Accueil</a></li>
+                        <li><a href="../about/about.html">A propos</a></li>
+                        <li><a href="../categories-1/categorie.html">Catégories et Accessoires</a>
+                            <!-- <ul class="categ">
+                                    <li>Item 1</li>
+                                    <li>Item 2</li>
+                                </ul> -->
+                        </li>
+                        <li><a href="../produit/produit.html">Produit</a></li>
+                        <li><a href="../blog/blog.html">Blog</a></li>
+                        <li><a href="../contact/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
+            <div class="navHeader">
+                <a href="../accueil/accueil1.html"><img src="../public/images/logo/logo.png" alt="" class="logo"></a>
+            </div>
+            <div class="navShop headIcon">
+                <a href="../panier1/panier1.html"><i class="fa-solid fa-cart-shopping"></i><span
+                        class="badge text-bg-danger">2</span></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <div class="image container-fluid p-0 ">
+            <img src="../public/images/bg/1.jpg" alt="" style="width: 100%; " class="img-responsive">
+            
+             <div class="couleurimage">
+                <h1 class="titre">SHOPPING CART</h1>
+                <a href="../accueil/accueil1.html">HOME / SHOPPING CART</a href="#">
+             </div> -
+                 </div>
+        <div class="containerpaiement">
+            <div class="containertop ">
+                <a href="../panier1/panier1.html" class=" containertopitem">SHOPPING CART</a>
+                <a href="../panier2/panier2.html" class="containertopitem">WISHLIST</a>
+                <a href="#" class=" containertopitem" id="active">CHECK OUT</a>
+                <a href="../validateCom/validation.html" class="containertopitem"> ORDER COMPLETE</a>
+
+            </div>
+            <div class="containermiddle row">
+                <div class="col-12 col-md-6">
+                    <h3> <span class="titrepaiement">BILLIN</span>G DETAILS </h3>
+                    <form action="" class="was-validated">
+                        <input type="text" placeholder="Your name here..." >
+                        <input type="email" placeholder="Email address here..." >
+                        <input type="tel" placeholder="Phone here..." >
+                        <input type="text" placeholder="Company name here..." >
+                        <select >
+                            <option value="Country">Country</option>
+                            <option value="Senegal">Senegal</option>
+                            <option value="France">Canada</option>
+                            <option value="USA">USA</option>
+                        </select>
+                        <select >
+                            <option value="State">State</option>
+                            <option value="State">State</option>
+                            <option value="State">State</option>
+                            <option value="State">State</option>
+                        </select>
+                        <select >
+                            <option value="Town/City">Town/City</option>
+                            <option value="Town/City">Dakar</option>
+                            <option value="Town/City">Montreal</option>
+                            <option value="Town/City">Californie</option>
+                        </select>
+                        <textarea placeholder="Your address here..."></textarea>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h3> <span class="titrepaiement">SHIP T</span>O DIFFERENT ADDRESS </h3>
+                <form action="" class="was-validated">
+                    <input type="text" placeholder="Your name here..." >
+                    <input type="email" placeholder="Email address here..." >
+                    <input type="tel" placeholder="Phone here..." >
+                    <input type="text" placeholder="Company name here..." >
+                    <select >
+                        <option value="Country">Country</option>
+                        <option value="Senegal">Senegal</option>
+                        <option value="France">Canada</option>
+                        <option value="USA">USA</option>
+                    </select>
+                    <select >
+                        <option value="State">State</option>
+                        <option value="State">State</option>
+                        <option value="State">State</option>
+                        <option value="State">State</option>
+                    </select>
+                    <select >
+                        <option value="Town/City">Town/City</option>
+                        <option value="Town/City">Dakar</option>
+                        <option value="Town/City">Montreal</option>
+                        <option value="Town/City">Californie</option>
+                    </select>
+                    <textarea placeholder="Your address here..."></textarea>
+                </form>
+                </div>
+                
+            </div>
+            <div class="containerbottom row">
+                <div class="col-12 col-md-6">
+                    <h3> <span class="titrepaiement">OUR O</span>RDER </h3>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">PRODUCT</th>
+                            <th scope="col">TOTAL</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Dummy Product Name x 2</th>
+                            <td>$86.00</td>
+                            
+                          </tr>
+                          <tr>
+                            <th scope="row">Dummy Product Name x 1</th>
+                            <td>$69.00</td>
+                            
+                          </tr>
+                          <tr>
+                            <th scope="row">Cart Subtotal</th>
+                            <td colspan="2">$155.00</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Shipping and Handing</th>
+                            <td colspan="2">$15.00
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Vat</th>
+                            <td colspan="2">$00.00
+                            </td>
+                          </tr>
+                          <tr id="total">
+                            <th scope="row">Order Total</th>
+                            <td colspan="2">$170.00</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+                <div class="col-12 col-md-6 containerbottomleft">
+                    <h3> <span class="titrepaiement">PAYM</span>ENT METHOD </h3>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                DIRECT BANK TRANSFER
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won't be shipped until the funds have cleared in our account.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                CHEQUE PAYMENT
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                PAYPAL
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Pay via PayPal; you can pay with your credit card if you don�t have a PayPal account
+                                <div class="col-12 col-md-6 copyRight">
+                                    <img src="../public/images/payment/1.png" alt="">
+                                    <img src="../public/images/payment/2.png" alt="">
+                                    <img src="../public/images/payment/3.png" alt="">
+                                    <img src="../public/images/payment/4.png" alt="">
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="button" class="boutonplaceorder">PLACE ORDER</button>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-lg-4 contactus">
+                    <h4>CONTACT US</h4>
+                    <hr>
+                    <div class="address">
+                        <div class="left">
+                            <p>Address:</p>
+                        </div>
+                        <div class="right">
+                            <p>28 Green Tower, Street Name, <br> New York City, USA</p>
+                        </div>
+                    </div>
+    
+                    <div class="address">
+                        <div class="left">
+                            <p>Cell-Phone:</p>
+                        </div>
+                        <div class="right">
+                            <p>012345 - 123456789</p>
+                        </div>
+                    </div>
+    
+                    <div class="address">
+                        <div class="left">
+                            <p>Email :</p>
+                        </div>
+                        <div class="right">
+                            <p>your-email@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-sm-12 col-lg-8 contactus1">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-3">
+                            <h4>ACCOUNTS</h4>
+                            <hr class="traitCol8">
+                            <ul>
+                                <li><a href="#"><i class="fa-regular fa-circle-dot"></i> My Account</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-dot"></i> My Wishlist</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-dot"></i> My Cart</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-dot"></i> Sign In</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-dot"></i> Check Out</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="col-12 col-sm-12 col-lg-3">
+                            <h4>SHIPPING</h4>
+                            <hr class="traitCol8">
+                            <ul>
+                                <li><a href="#"><i class="fa-regular fa-circle-dot"></i> New Products</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-dot"></i> Top Sellers</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-dot"></i> Manufactirers</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-dot"></i> Suppliers</a></li>
+                                <li><a href="#"><i class="fa-regular fa-circle-dot"></i> Specials</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="col-12 col-sm-12 col-lg-5">
+                            <h4>EMAIL NEWSLETTERS</h4>
+                            <hr class="traitCol8">
+                            <form action="">
+                                <input type="email" class="form-control" placeholder="Email Address ...">
+                                <button type="button" class="btn">SUBSCRIBE</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerCopy">
+            <div class="container">
+                <div class="foot row d-flex justify-content-between">
+                    <div class="col-12 col-md-6 copyLeft">
+                        <p>CodeCarnival 2021. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-12 col-md-6 copyRight">
+                        <img src="../public/images/payment/1.png" alt="">
+                        <img src="../public/images/payment/2.png" alt="">
+                        <img src="../public/images/payment/3.png" alt="">
+                        <img src="../public/images/payment/4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+        </script>
+    <script src="../public/Js/index.js"></script>
+    <script src="../public/Js/FontAwesome.js"></script>
+</body>
+
+</html>

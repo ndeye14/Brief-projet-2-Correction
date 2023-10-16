@@ -1,0 +1,445 @@
+/* Header */
+
+header {
+    background-color: white;
+}
+
+header .navHeader {
+    width: 80px;
+}
+
+header .navBurger i{
+    cursor: pointer;
+}
+
+header .navHeader img {
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+header .headIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .navShop a{
+    color: #131c28;
+}
+
+header .navShop span{
+    font-size: 10px;
+    font-weight: 600;
+    position: relative;
+    margin-left: 2px;
+    bottom: 10px;
+}
+
+/* navigation */
+
+.navigation.mobile-menu{
+    margin-left: 0;
+}
+
+header .navigation{
+    /* border: 1px solid red; */
+    position: absolute;
+    height: 98vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 46px;
+    left: 0px;
+    width: 350px;
+    background-color: white;
+    margin-left: -350px;
+    transition: all 1s ease;
+    border-right: 5px solid #e87320;
+}
+
+header .navigation .navImg{
+    margin-bottom: 50px;
+}
+
+header .navigation nav{
+    width: 85%;
+}
+
+header .navigation nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+}
+
+header .navigation nav ul li{
+    background-color: #e87320;
+    border-radius: 10px 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+header .navigation nav ul .active{
+    background: rgba(0, 0, 0, 0.262);
+}
+
+header .navigation nav ul li:hover{
+    transition: 0.8s ease;
+    transform: scale(1.1);
+    border-bottom: 5px solid #131c28;
+}
+
+header .navigation nav ul li a{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+/* navigation */
+
+/* Header */
+
+
+/* Footer */
+
+footer {
+    background-color: var(--bgFooter1);
+}
+
+footer .container {
+    margin-top: 5%;
+}
+
+footer .container h4 {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--titreFooter);
+}
+
+footer .contactus hr {
+    width: 50px;
+    background-color: #f86802 !important;
+    height: 4px;
+    border: none;
+}
+
+footer .contactus .address {
+    display: flex;
+}
+
+.contactus .address .left {
+    width: 40%;
+    font-weight: bold;
+    color: #5c5e60;
+}
+
+.contactus .address .right {
+    width: 60%;
+    font-size: 14px;
+    color: #5c5e60;
+}
+
+.contactus1 .traitCol8 {
+    width: 25%;
+    background-color: rgb(254, 131, 0);
+    border: none;
+    height: 4px;
+}
+
+.contactus1 ul {
+    padding: 0;
+}
+
+.contactus1 ul li a {
+    font-size: 14px;
+    color: #5c5e60;
+}
+
+.contactus1 ul li a:hover{
+    color: #e87320;
+    transform: scale(1.1);
+    transition: 1s ease;
+    margin-left: 5px;
+}
+
+.contactus1 form input {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.contactus1 form button {
+    background-color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+footer{
+    border: 1px solid rgba(240, 243, 243, 0.989);
+}
+
+footer .copyRight {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+footer .copyLeft {
+    padding-top: 10px;
+}
+
+.copyRight img {
+    margin-left: 10px;
+}
+
+footer .footerCopy {
+    background-color: #ffffffba;
+}
+
+/* Footer *
+
+/* main */
+main .baniere{
+    height: 300px;
+    background-image: url(../public/images/bg/1.jpg);
+    background-size: cover;
+}
+
+.baniere-text{
+    height: 310px;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+    bottom: 310px;
+    /* margin-top: 200px; */
+
+}
+h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.cartes{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+}
+.carte{
+    line-height: 23px;
+    height: 550px;
+    background-color: #c08a14;
+}
+.entete .lien a{
+    text-decoration: none;
+    color: #9c9a9aba;
+    font-size: 19px;
+}
+.superieur{
+    position: relative;
+    top: -280px;
+}
+.new{
+    background-color: #c08a14;
+    color: white;
+    width: 90px;
+    border-radius: 4px;
+}
+
+.last_icones{
+    margin: 6px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 745px ){
+    main .baniere{
+        height: 105px;
+        background-image: url(../public/images/bg/1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .baniere-text{
+        height: 60%;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: relative;
+        bottom: 310px;
+    
+    }
+    .showing{
+        display: none;
+    }
+    h1{
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 15px;
+    }
+    .cartes{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 20px;
+    }
+    .carte{
+        line-height: 23px;
+        height: auto;
+        background-color: #c08a14;
+    }
+    .entete .lien a{
+        text-decoration: none;
+        color: #9c9a9aba;
+        font-size: 15px;
+    }
+    .superieur{
+        position: relative;
+        top: -280px;
+    }
+    .new{
+        background-color: #c08a14;
+        color: white;
+        width: 75px;
+        border-radius: 4px;
+    }
+    
+    .last_icones{
+        margin: 6px;
+        text-align: center;
+    }
+
+        .footerCopy .copyLeft p {
+            text-align: center;
+        }
+    
+        .footerCopy .copyRight {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+}
+
+
+@media only screen and (min-width: 746px ) and (max-width: 900px ){
+    main .baniere{
+        height: 200px;
+        background-image: url(../public/images/bg/1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .baniere-text{
+        height: 310px;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: relative;
+        bottom: 10px;
+        /* margin-top: 200px; */
+    
+    }
+    h1{
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 45px;
+    }
+    .cartes{
+        display: grid;
+        grid-template-columns: 50% 50% ;
+        gap: 20px;
+    }
+    .carte{
+        line-height: 23px;
+        height: 550px;
+        background-color: #c08a14;
+    }
+    .entete .lien a{
+        text-decoration: none;
+        color: #9c9a9aba;
+        font-size: 19px;
+    }
+    .superieur{
+        position: relative;
+        top: -280px;
+    }
+    .new{
+        background-color: #c08a14;
+        color: white;
+        width: 90px;
+        border-radius: 4px;
+    }
+    
+    .last_icones{
+        margin: 6px;
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (min-width: 901px ){
+    main .baniere{
+        height: 300px;
+        background-image: url(../public/images/bg/1.jpg);
+        background-size: cover;
+    }
+    
+    .baniere-text{
+        height: 310px;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: relative;
+        bottom: 310px;
+        /* margin-top: 200px; */
+    
+    }
+    h1{
+        font-weight: bold;
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        
+    }
+    .cartes{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        gap: 20px;
+    }
+    .carte{
+        line-height: 23px;
+        height: 550px;
+        background-color: #c08a14;
+    }
+    .entete .lien a{
+        text-decoration: none;
+        color: #9c9a9aba;
+        font-size: 19px;
+    }
+    .superieur{
+        position: relative;
+        top: -280px;
+    }
+    .new{
+        background-color: #c08a14;
+        color: white;
+        width: 90px;
+        border-radius: 4px;
+    }
+    
+    .last_icones{
+        margin: 6px;
+        text-align: center;
+    }
+
+}
